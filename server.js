@@ -7,6 +7,7 @@ import fetch from "node-fetch";
 import cron from "node-cron";
 import dotenv from "dotenv";
 import { createOpenAI } from "@ai-sdk/openai";
+import dotenv from "dotenv";
 import { streamText } from "ai";
 
 dotenv.config();
